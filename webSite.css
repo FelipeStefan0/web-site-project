@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(238, 76, 76);
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 100vw;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    position: fixed;
+    color: rgb(238, 76, 76); 
+    box-shadow: 0px 0px 10px black; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(238, 76, 76);
+    padding-left: 4px;
+}
+
+.menu a > h2 {
+    margin-right: 100px;
+}
+
+.menu h2 {
+    width: 150px;
+    font-family: 'Russo One', sans-serif;
+    padding-left: 20px;
+    font-size: 2em;
+    margin-bottom: -30px;
+    margin-top: 15px;
+}
+
+.menu ul {
+    text-decoration: none;
+    margin: 0;
+    margin-left: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.menu_ul a {
+    text-decoration: none;
+    color: rgb(238, 76, 76);
+    transition: background-color 0.4s, color 0.4s ;
+    padding: 10px 20px;
+    padding-bottom: 23px;
+    padding-top: 24px;
+}
+
+.menu_ul a:active,
+.menu_ul a:hover {
+    color: whitesmoke;
+    background-color: rgb(238, 76, 76);  
+}
+
+.inicio {
+    padding-top: 90px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.inicio h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+.inicio h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+hr { 
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.introducao {
+    text-indent: 20px;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.introducao h2 {
+    margin-bottom: 10px;
+}
+
+.introducao img {
+    width: 580px;
+    height: 330px;
+    margin-left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    margin-right: 10px;
+}
+
+.introducao_to h2 {
+    text-align: center;
+}
+
+.introducao_to li {
+    margin-bottom: 40px;
+}
+
+.lista {
+    text-align: center;
+}
+
+.lista ul {
+    text-align: left;
+    display: inline-block;
+}
+
+.b_introducao {
+    margin-top: 10px;
+    width: 400px;
+}
+
+#li_bottom {
+    margin-bottom: 10px;
+}

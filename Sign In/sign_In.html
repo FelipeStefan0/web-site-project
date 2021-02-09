@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In - WebSite</title>
+    <!--<meta http-equiv="refresh" content="10">-->
+    <link rel="icon" href="../Img/conecte-se.png">
+    <link rel="stylesheet" href="sign_In.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="../Accessed/accessed.js"></script>
+</head>
+
+<body>
+    <nav class="menu">
+        <div>
+            <h2><a href="../index.html"> WebSite </a></h2>
+            <ul class="menu_ul">
+                <li><a href="#">Credits</a></li>
+                <li><a href="#">Contact</a></li>
+                <li id="home_page"><a href="../index.html">Home Page</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="login">
+        <h2>Login</h2>
+        <div class="box-login">
+            <form name="form">
+                <div class="content-login">
+                    <label name="email" id="email">
+                        Email:
+                    </label>
+                    <input type="email" name="txtEmail" id="txtEmail" placeholder="example@provider.com" required autocomplete="on">
+                    <br>
+                    <label name="password" id="password">
+                        Password:
+                    </label>
+                    <input type="password" name="txtPassword" id="txtPassword" placeholder="Put your password" required>
+                    <br>
+                    <label name="remember" id="remember">
+                        Remember
+                    </label>
+                    <input type="checkbox" id="txtRemember">
+                    <hr id="hr">
+                    <input type="button" value="Log in" id="log-in" onclick="acesso(this.form)">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
